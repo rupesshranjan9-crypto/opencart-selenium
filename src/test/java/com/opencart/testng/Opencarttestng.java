@@ -6,7 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.testng.annotations.Test;
 
-public class Opencarttestng {
+public class Opencarttestng 
+{
 
     ChromeDriver driver;
 
@@ -32,7 +33,7 @@ public class Opencarttestng {
 
         firstname.sendKeys("Rupessh");
         lastname.sendKeys("Kumar");
-        email.sendKeys("rupesh_test_positive_001@gmail.com");
+        email.sendKeys("rupesh_test_positive_0001@gmail.com");
         telephone.sendKeys("1234567890");
         password.sendKeys("Rupesh@49");
         confirmpassword.sendKeys("Rupesh@49");
@@ -79,6 +80,6 @@ public class Opencarttestng {
 
         System.out.println("Negative Testing: " + confirmation1.getText());
 
-        driver.quit();
+       // driver.quit();
     }
 }

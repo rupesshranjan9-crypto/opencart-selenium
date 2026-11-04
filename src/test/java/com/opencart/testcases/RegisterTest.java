@@ -21,6 +21,7 @@ public class RegisterTest {
     }
     @Test(priority=2)
     public void register() throws InterruptedException {
+    	// Testing CI CD automatic build
 
         WebDriverManager.chromedriver().setup();
 

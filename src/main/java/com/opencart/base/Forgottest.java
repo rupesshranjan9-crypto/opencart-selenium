@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Forgotpassword {
+public class Forgottest {
 
 	public static void main(String[] args) {
 		

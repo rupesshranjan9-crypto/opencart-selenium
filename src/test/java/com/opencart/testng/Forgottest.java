@@ -22,7 +22,7 @@ public class Forgottest {
 	driver.get("https://tutorialsninja.com/demo/");//website
 	driver.manage().window().maximize();
 	
-	driver.findElement(By.xpath("//span[normalize-space()='My Account']")).click();
+	driver.findElement(By.xpath("//a[@title='My Account']")).click();
 	
 	driver.findElement(By.xpath("//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']")).click();
 	driver.findElement(By.xpath("//div[@class='form-group']//a[normalize-space()='Forgotten Password']")).click();

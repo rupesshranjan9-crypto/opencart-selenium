@@ -23,7 +23,7 @@ public class Logintestng {
 	
 	driver.get("https://tutorialsninja.com/demo/");//website
 	driver.manage().window().maximize();
-	driver.findElement(By.xpath("//span[normalize-space()='My Account']")).click();//click on account
+	driver.findElement(By.xpath("//a[@title='My Account']")).click();//click on account
 	driver.findElement(By.xpath("//a[normalize-space()='Login']")).click();
 	driver.findElement(By.xpath("//input[@id='input-email']")).sendKeys("rupeshranjan49@gmail.com");
 	driver.findElement(By.xpath("//input[@id='input-password']")).sendKeys("Rupesh@49");

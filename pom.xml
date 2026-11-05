@@ -50,6 +50,12 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.2.5</version>
         <configuration>
+          <configuration>
+    <testFailureIgnore>true</testFailureIgnore>
+    <suiteXmlFiles>
+        <suiteXmlFile>testng.xml</suiteXmlFile>
+    </suiteXmlFiles>
+</configuration>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>

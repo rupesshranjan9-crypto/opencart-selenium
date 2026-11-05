@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.opencart.testcases.RegisterTest">
+      <class name="com.opencart.testng.Forgottest">
         <methods>
-          <include name="login"/>
+          <include name="Forgot"/>
         </methods>
-      </class> <!-- com.opencart.testcases.RegisterTest -->
+      </class> <!-- com.opencart.testng.Forgottest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
